@@ -1,10 +1,10 @@
 {
   "name": "service",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,16 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.17.3",
+    "firebase": "^9.6.11",
     "firebase-admin": "^10.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhatphongcgp/server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhatphongcgp/server/issues"
+  },
+  "homepage": "https://github.com/nhatphongcgp/server#readme",
+  "description": ""
 }
